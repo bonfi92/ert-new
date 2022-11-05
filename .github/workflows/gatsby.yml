@@ -25,5 +25,5 @@ jobs:
           server: ftp.ert-kingdom.com
           username: 13055378@aruba.it
           password: ${{ secrets.ARUBA_PWD }}
-          folder: web/public/
+          local-dir: web/public/
           server-dir: test/gatsby/
