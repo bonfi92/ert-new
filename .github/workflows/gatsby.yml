@@ -28,7 +28,7 @@ jobs:
       - name: Deploy 🚀
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
         with:
-          server: ftps://ftp.ert.kingdom.com
+          server: ftps://ftp.ert-kingdom.com
           username: 13055378@aruba.it
           password: ${{ secrets.ARUBA_PWD }}
           server-dir: test/gatsby/
