@@ -7,7 +7,8 @@
     "node": "10.x"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve --prefix-paths",
     "deploy": "npm run now-deploy",
     "develop": "gatsby develop",
     "empty-cache": "gatsby clean",
