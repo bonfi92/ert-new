@@ -32,4 +32,4 @@ jobs:
           username: 13055378@aruba.it
           password: ${{ secrets.ARUBA_PWD }}
           local-dir: web/public/
-          server-dir: test/gatsby/
+          server-dir: www.ert-kingdom.com/test-gatsby/
