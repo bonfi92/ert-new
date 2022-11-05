@@ -5,7 +5,7 @@ on:
   # Allows external webhook trigger
   repository_dispatch:
     types:
-      - webhook
+      - sanity webhook
 permissions:
   contents: write
 jobs:
