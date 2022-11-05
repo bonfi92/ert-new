@@ -16,12 +16,6 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: Install web
-        run: cd web && npm install
-
-      - name: Install studio
-        run: cd studio && npm install
-
       - name: Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: npm run gatsby-build
 
@@ -31,4 +25,5 @@ jobs:
           server: ftp.ert-kingdom.com
           username: 13055378@aruba.it
           password: ${{ secrets.ARUBA_PWD }}
+          folder: web/public/
           server-dir: test/gatsby/
