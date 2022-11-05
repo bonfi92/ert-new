@@ -4,6 +4,7 @@ const {
 } = requireConfig('../studio/sanity.json')
 
 module.exports = {
+  pathPrefix: '/test-gatsby',
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
